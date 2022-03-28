@@ -1,0 +1,23 @@
+{
+    "email": "Super hero squad",
+    "fistName": "Super hero squad",
+    "lastName": "Metro City",
+    "phoneNumber": 2016,
+    "password": "Super tower",
+    "losts": [
+      {
+        "imageName": "Molecule Man"
+      },
+      {
+        "imageName": "Molecule Man"
+      },
+      {
+        "imageName": "Molecule Man"
+      }
+    ],
+    "founds": [
+        {
+          "imageName": "Molecule Man"
+        }
+      ]
+  }

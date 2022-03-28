@@ -1,0 +1,15 @@
+{
+  "imgName": "Super hero squad",
+  "userID": "Metro City", 
+  "isLost": true,
+  "Details":{
+    "itemName": "Super hero squad",
+    "Description": "Metro City"
+  },
+  "similarImages": [    
+      "imgName1",
+      "imgName2",
+      "imgName3",
+      "imgName4"
+  ]  
+}
