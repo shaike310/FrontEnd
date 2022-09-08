@@ -89,9 +89,25 @@ function LostItem() {
     }
   };
   const temporaryShut=()=>{
-    addToast("New item listing has been disabled temporarily.", {
-      appearance: "warning",
+    
+    // console.log("woff",itemimage[0].name)
+
+
+    const response = fetch("/uploadImage", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+ 
+      body: JSON.stringify(itemimage[0].name)
+      
+    }) .then(response => response.json())
+    .catch(error => console.log(error));
+
+    console.log("I am post response", response);
+
+    addToast("New item listing has been added successfully.", {
+      appearance: "success",
     });
+
     setShow(false);
   }
   return (

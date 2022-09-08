@@ -119,7 +119,7 @@ export default function Home() {
         <h6>My Project Inspiration</h6>
         <p>Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.</p>
       </div> */}
-      <div data-aos="fade-right">
+      {/* <div data-aos="fade-right">
         <Container fluid className="total-inspiration">
           <div>
             <img className="developer-img" src={developer} alt="" />
@@ -133,12 +133,10 @@ export default function Home() {
               of the college students. A problem will still remain the same
               until someone builds a solution to it.
             </p>
-            {/* <Button variant="custom" size="lg" onClick={()=>{ref.current.scrollIntoView({ behavior: 'smooth' })}}>
-              Get Started
-            </Button> */}
+        
           </Row>
         </Container>
-      </div>
+      </div> */}
       {/* <div data-aos="fade-left">
         <Container fluid>
           <div className="feature">
@@ -196,17 +194,17 @@ export default function Home() {
                   style={{ width: "200px", height: "200px" }}
                   alt=""
                 />
-                <h4>Get Notified</h4>
+                <h4>Get Sp/N-otified</h4>
                 <p>
-                  Once anyone posts an item, we make our registred users aware
-                  about the same by sending notification .
+                  Ohhh this is the interesting part. Once anyone posts an item, we make our registred users aware
+                  when a similar item uploaded to our database by sending email notification . Go to your item and find out if it is your desired item!
                 </p>
               </div>
             </div>
           </div>
         </Container>
       </div>
-      <div data-aos="fade-right">
+      {/* <div data-aos="fade-right">
         <Container fluid>
           <div className="total-contact-form">
             <div className="contact-title">
@@ -259,9 +257,9 @@ export default function Home() {
             </div>
           </div>
         </Container>
-      </div>
+      </div> */}
 
-      <div className="footer">
+      {/* <div className="footer">
         <div className="social-icon">
           <a
             href="https://github.com/eswarupkumar"
@@ -277,13 +275,7 @@ export default function Home() {
           >
             <img src={linkedin} className="icon" alt="" />
           </a>
-          {/* <a
-            href="https://www.instagram.com/_swarup._.kumar_/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={instagram} className="icon" alt="" />
-          </a> */}
+
           <a
             href="mailto:eswarupkumar1111@silicon.ac.in"
             target="_blank"
@@ -299,18 +291,12 @@ export default function Home() {
             <span className="symbol">/&#62;</span>
           </h4>
           <h6>Full Stack Developer</h6>
-          {/* <a
-            href="https://www.swarupwho.codes"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h6>swarupwho.codes</h6>
-          </a> */}
+  
         </div>
         <h5 style={{ textAlign: "center" }}>
           Copyright © 2022 E Swarup Kumar. All rights reserved.
         </h5>
-      </div>
+      </div> */}
       {/* <div className="About">
         <div>
           <h1>About the project</h1>

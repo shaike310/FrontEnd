@@ -45,6 +45,17 @@ function Login() {
         setloading(false);
         console.log(error);
         console.log("Error occured");
+
+
+        //Testings
+
+            //Authentication done.
+         
+            localStorage.setItem("token", "AAA");
+            // console.log(response.data.user)
+            localStorage.setItem("user", "Shai");
+          //  history.push({ pathname: "/feed", user: response.data.user });
+          
       });
     // .then((response)=>{
     //     console.log('Login Data sent')

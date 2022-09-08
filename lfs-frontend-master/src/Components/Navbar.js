@@ -81,21 +81,19 @@ function Navbar() {
         <ToastProvider autoDismiss={true} placement={"bottom-right"}><div><LostItem /></div></ToastProvider>
           {/* <Found_item /> */}
           <ul>
-            <a style={{ textDecoration: "none", color: "white" }} href="/feed">
-              Feed
-            </a>
+         
             {/* {props.name} */}
             <a
               style={{ textDecoration: "none", color: "white" }}
               href="/responses"
             >
-              Responses
+              My Founds
             </a>
             <a
               style={{ textDecoration: "none", color: "white" }}
               href="/mylistings"
             >
-              My Listings
+              Spotting
             </a>
             <a
               style={{ textDecoration: "none", color: "white" }}
