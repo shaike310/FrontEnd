@@ -15,6 +15,8 @@ function Login() {
   const history = useHistory();
   function login() {
     setloading(true);
+
+ 
     // console.log(setinfo)
     var payload = {
       email: document.getElementById("email").value,
@@ -35,11 +37,12 @@ function Login() {
           localStorage.setItem("token", response.data.jwt_token);
           // console.log(response.data.user)
           localStorage.setItem("user", JSON.stringify(response.data.user));
-          history.push({ pathname: "/feed", user: response.data.user });
+          // history.push({ pathname: "/feed", user: "" });
         } else {
           setinfo(response.data);
         }
         // console.log("Response :",response)
+        history.push({ pathname: "/"});
       })
       .catch((error) => {
         setloading(false);
@@ -55,6 +58,7 @@ function Login() {
             // console.log(response.data.user)
             localStorage.setItem("user", "Shai");
           //  history.push({ pathname: "/feed", user: response.data.user });
+          history.push({ pathname: "/"});
           
       });
     // .then((response)=>{
@@ -111,7 +115,7 @@ function Login() {
             required
           />
           {/* <input type="submit" placeholder="Submit"></input> */}
-          <button type="button" className="submit" onClick={login}>
+          <button type="button" className="submit" href="/sign-up" onClick={login}>
             {loading ? (
               <>
                 <Spinner

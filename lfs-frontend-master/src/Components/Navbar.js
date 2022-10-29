@@ -83,12 +83,12 @@ function Navbar() {
           <ul>
          
             {/* {props.name} */}
-            <a
+            {/* <a
               style={{ textDecoration: "none", color: "white" }}
               href="/responses"
             >
               My Founds
-            </a>
+            </a> */}
             <a
               style={{ textDecoration: "none", color: "white" }}
               href="/mylistings"
